@@ -55,7 +55,6 @@ const App = () => {
         )}
         <Header />
         {box && <Box />}
-        <Box />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product" element={<Cart />} />
