@@ -1,0 +1,312 @@
+.footer,
+.footer p {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: .065px;
+}
+
+.footer-top .custom-block {
+    padding: 40px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+            align-items: center;
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.footer-top .custom-block .widget {
+    margin: 0;
+}
+
+.footer .newsletter input {
+    background: #f4f4f4;
+    min-width: 271px;
+    padding: 8px 12px;
+    height: 48px;
+    font-size: .75rem;
+    color: #777;
+    border: none;
+    border-radius: 0;
+    line-height: 1.4;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+.footer .newsletter input::-webkit-input-placeholder {
+    color: #777;
+    opacity: .5;
+}
+
+.footer .newsletter input::-moz-placeholder {
+    color: #777;
+    opacity: .5;
+}
+
+.footer .newsletter input:-ms-input-placeholder {
+    color: #777;
+    opacity: .5;
+}
+
+.footer .newsletter input::-ms-input-placeholder {
+    color: #777;
+    opacity: .5;
+}
+
+.footer .newsletter input::placeholder {
+    color: #777;
+    opacity: .5;
+}
+
+.newsletter .actions {
+    display: table-cell;
+    vertical-align: top;
+    width: 1%;
+}
+
+.footer .widget p {
+    font-size: 13px;
+}
+
+.footer .newsletter .subscribe {
+    padding: 0.533rem 0.933rem;
+    line-height: 1.42857;
+    background-color: #222529;
+    height: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+}
+
+.newsletter .form {
+    display: table;
+    width: 100%;
+}
+
+.share-links {
+    vertical-align: middle;
+}
+
+.footer .follow-us .share-links a:not(:hover) {
+    background: none;
+    color: #525252;
+    border: none;
+}
+
+.footer .follow-us .share-links a {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin: 2px;
+    overflow: hidden;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    text-align: center;
+    line-height: 1.90;
+}
+
+.follow-us .share-links a:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.share-links .share-facebook {
+    background: #3b5a9a;
+}
+
+.share-links .share-twitter {
+    background: #1aa9e1;
+}
+
+.share-links .share-instagram {
+    background: #e869a8;
+}
+
+.footer-middle {
+    color: #90969a;
+    background-color: #FFFFFF;
+}
+
+.footer-middle>.container {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 1.55rem;
+}
+
+.footer-middle>.container::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    right: 10px;
+    border-bottom: 1px solid #e7e7e7;
+    left: 4.27vw;
+    right: 4.27vw;
+}
+
+.footer .widget,
+.widget {
+    margin-bottom: 1.875rem;
+}
+
+.footer .widget-title {
+    font-size: 1.1666em;
+    color: #000;
+    position: relative;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer .contact-details {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.widget.contact-info ul,
+.widget.contact-info li {
+    line-height: 1.8;
+}
+
+.widget.contact-info li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer .contact-details>li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+}
+
+.footer .contact-info .contact-details strong,
+.footer .contact-info .contact-details span {
+    line-height: 1.4;
+}
+
+.footer .contact-info .contact-details strong {
+    color: #000;
+    font-weight: 400;
+}
+
+.widget.contact-info .contact-details strong,
+.widget.contact-info .contact-details span {
+    display: block;
+}
+
+.footer-middle a {
+    color: #90969a;
+}
+
+.widget.contact-info li a:hover {
+    text-decoration: underline;
+}
+
+.footer .row.d-inline-flex {
+    white-space: nowrap;
+    margin-left: -3vw;
+    margin-right: -3vw;
+}
+
+.footer .row.d-inline-flex>div {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.footer-middle a:hover,
+.footer .widget .tagcloud a:hover {
+    color: #555;
+}
+
+.footer .footer-bottom {
+    padding: 1.5rem 0 2rem;
+    font-size: 1em;
+}
+
+.footer-bottom,
+.footer-bottom p {
+    color: #90969a;
+}
+
+.footer-bottom .custom-block.f-right {
+    margin: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    padding: 10px 0 10px 8px;
+    text-align: right;
+    float: right;
+}
+
+.bottom-payment-icons {
+    display: block;
+    float: right;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.footer-bottom address {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    padding: 10px 8px 10px 0;
+    text-align: left;
+    margin-right: auto;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .footer .footer-bottom>.container {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .footer .footer-bottom .custom-block.f-right {
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .footer-bottom>.container>* {
+        float: none !important;
+        line-height: 35px !important;
+    }
+
+    .widget_text {
+        margin-bottom: 12px;
+    }
+
+    .footer .newsletter input {
+        min-width: 180px;
+    }
+}

@@ -1,0 +1,237 @@
+.bac-img_1 {
+    background-image: url(./banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.porto-ibanner-desc {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 11;
+}
+
+.porto-ibanner-layer_1 h2 {
+    font-size: 2.5em;
+    color: #777777;
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'Segoe Script', 'Savoye LET';
+}
+
+.porto-ibanner-layer_1 h3 {
+    font-size: 2.5em;
+    letter-spacing: .185em;
+    margin: 0;
+    color: #222329;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.porto-ibanner-layer_1 h3.mb-4 {
+    line-height: 1;
+    letter-spacing: normal;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.porto-ibanner-layer_1 h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5.625em;
+    line-height: 1;
+}
+
+.porto-ibanner-layer_1 h5 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    font-weight: 900;
+    line-height: 20px;
+    color: #222329;
+    margin: 0 0 14px 0;
+    padding-top: 10px;
+}
+
+.porto-ibanner-layer_1 .coupon-sale-text {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    letter-spacing: 0;
+    z-index: 1;
+    line-height: 1;
+}
+
+.porto-ibanner-layer_1 .coupon-sale-text::before {
+    font-family: 'Poppins', sans-serif;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #fff;
+    -webkit-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+
+.porto-ibanner-layer_1 .coupon-sale-text sup {
+    font-family: 'Poppins', sans-serif;
+    font-size: 55%;
+}
+
+.btn-modern {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #222529;
+    font-size: 1.125em;
+    font-weight: 700;
+    padding: 1.125em 2.75em;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.btn-modern:hover {
+    background-color: #222529;
+    color: #fff;
+}
+
+.bac-img_2 {
+    background-image: url(./banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.porto-ibanner-layer_2 h2 {
+    font-family: 'Segoe Script', 'Savoye LET';
+    color: #222329;
+    letter-spacing: -.3px;
+    color: #302e2a;
+    margin: 0 0 32px 0;
+    font-weight: 700;
+}
+
+.porto-ibanner-layer_2 .vertical-font {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-left: 0.3em;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 32px;
+    color: #222329;
+    margin: 0 0 20px 0;
+    letter-spacing: normal;
+}
+
+.porto-ibanner-layer_2 .vertical-font small {
+    font-size: 25%;
+    font-weight: 500;
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    transform: translateY(-50%) rotate(-90deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    position: absolute;
+    left: -1em;
+    top: 50%;
+    color: inherit;
+    font-family: inherit;
+}
+
+.porto-ibanner-layer_2 .divider {
+    height: 5px;
+    background: #000;
+    width: 50px;
+    margin: 22px 0;
+}
+
+.porto-ibanner-layer_2 .vc_column-inner h5 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222329;
+    margin: 0 0 14px 0;
+    text-transform: uppercase;
+}
+
+.porto-ibanner-layer_2 em {
+    font-size: 2em;
+    font-style: normal;
+    font-family: inherit;
+    vertical-align: text-bottom;
+}
+
+.porto-ibanner-layer_2 .btn-modern svg {
+    padding-left: 7px;
+    font-size: 28px;
+}
+
+.owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+}
+
+.home-slider .swiper-button-prev {
+    margin-left: 40px;
+    color: #222329;
+}
+
+.home-slider .swiper-button-prev::after,
+.home-slider .swiper-button-next::after {
+    font-size: 35px;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.home-slider .swiper-button-next {
+    margin-right: 40px;
+    color: #222329;
+}
+
+.home-slider .swiper:hover .swiper-button-prev::after,
+.home-slider .swiper:hover .swiper-button-next::after {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .home-slider .swiper-button-prev::after,
+    .home-slider .swiper-button-next::after {
+        opacity: 1 !important;
+        font-size: 25px;
+    }
+
+    .home-slider .swiper-button-prev {
+        margin-left: 5px;
+    }
+
+    .home-slider .swiper-button-next {
+        margin-right: 5px;
+    }
+
+    .bac-img_1,
+    .bac-img_2 {
+        background-position: 50%;
+    }
+}

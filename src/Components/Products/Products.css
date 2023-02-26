@@ -1,0 +1,199 @@
+.home-products .product-item-info {
+    margin-bottom: 1.4286em;
+}
+
+.home-products .product-item-info .slider-title {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.home-products .product-item-info .product-item-photo {
+    position: relative;
+    margin-bottom: 1rem;
+    min-height: 90px;
+    font-size: 1em;
+    display: block;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.home-products .product-item-info:hover .product-item-photo {
+    -webkit-box-shadow: 0 25px 35px -5px rgb(0 0 0 / 10%);
+    box-shadow: 0 25px 35px -5px rgb(0 0 0 / 10%);
+}
+
+.home-products .product-item-info .weltpixel-quickview {
+    background-color: #222529;
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 34px;
+    border-radius: 0;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: .25s;
+    -o-transition: .25s;
+    transition: .25s;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: auto;
+    line-height: 34px;
+    padding: 0;
+}
+
+.home-products .product-item-info:hover .weltpixel-quickview {
+    padding: 0.45rem 0;
+    opacity: .85;
+    visibility: visible;
+}
+
+.home-products .product-item-info .weltpixel-quickview:hover {
+    opacity: 1;
+    background-color: #222529;
+    color: #fff;
+}
+
+.home-products .product-item-inner {
+    height: 0;
+}
+
+.home-products .product-item-info .towishlist {
+    background: 0 0;
+    border: 0;
+    opacity: .7;
+    position: absolute;
+    right: 0;
+    bottom: -44px;
+    width: 1.4em;
+    visibility: visible;
+    z-index: 3;
+    color: #333;
+    height: 36px;
+    line-height: 34px;
+    letter-spacing: normal;
+    border-radius: 0;
+}
+
+.home-products .product-item-info .actions-secondary {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    visibility: hidden;
+    opacity: 0;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 34px;
+    z-index: 3;
+    -webkit-transition: .25s;
+    -o-transition: .25s;
+    transition: .25s;
+    text-align: center;
+}
+
+.home-products .product-item-info .actions-secondary.tocart {
+    right: 56px;
+}
+
+.home-products .product-item-info:hover .actions-secondary {
+    opacity: 1;
+    visibility: visible;
+}
+
+.home-products .product-item-info .tocart svg {
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    position: relative;
+    left: -4px;
+}
+
+.home-products .product-item-info .product-item-name {
+    padding-right: 20px;
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.home-products .product-item-info .product-item-name a {
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: -.01em;
+    margin-bottom: 0.45rem;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #222529;
+    display: block;
+}
+
+.home-products .product-item-info .product-reviews-summary {
+    margin: 0 0 0.55rem;
+    display: table;
+}
+
+.home-products .product-item-info .rating-summary svg {
+    font-size: 14px;
+    color: #c3c5c9;
+}
+
+.home-products .product-item-info .product-item-price {
+    margin-bottom: 1rem;
+    display: block;
+    font-size: 1.125rem;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.home-products .product-item-info .product-item-price .product-price {
+    color: #444;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1;
+}
+
+.home-products .product-item-info .product-item-price .old-price {
+    padding: 0 7px;
+    font-size: 14px;
+    opacity: .6;
+}
+
+.home-products .product-item-info .product-item-photo .product-labels {
+    background-color: #e27c7c;
+    line-height: 1;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    top: 0.8em;
+    font-size: 10px;
+    left: 0.8em;
+    text-align: center;
+    padding: 5px 11px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-products .product-item-info .actions-secondary {
+        opacity: 1;
+        visibility: visible;
+    }
+}

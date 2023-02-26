@@ -1,0 +1,15 @@
+.porto-just-icon-wrapper svg {
+    font-size: 40px;
+    color: #222329;
+}
+
+.porto-sicon-header h3 {
+    color: #222329;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .porto-sicon-box {
+        margin-bottom: 2rem;
+    }
+}
