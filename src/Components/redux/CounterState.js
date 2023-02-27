@@ -101,20 +101,22 @@ export const counterSlice = createSlice({
             const isProductInCart = state.addedItem.some(
               (item) => item.id === state.cartDetails.id
             );
+            if (isProductInCart) {
             state.addedItem.map((item) => {
-              if (isProductInCart == item) {
+              if (isProductInCart.id === item.id) {
                 item.qty = item.qty += state.cartDetails.qty;
                 state.totalPrice =
                   actions.payload.price * state.cartDetails.qty +
                   state.totalPrice;
+              }
                 return item;
+              })
               } else {
                 state.addedItem.push(state.cartDetails);
                 state.totalPrice =
                   actions.payload.price * state.cartDetails.qty +
                   state.totalPrice;
               }
-            });
           } else {
             state.addedItem.push(state.cartDetails);
             state.totalPrice =
