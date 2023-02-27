@@ -103,7 +103,7 @@ export const counterSlice = createSlice({
             );
             if (isProductInCart) {
             state.addedItem.map((item) => {
-              if (isProductInCart.id === item.id) {
+              if (state.cartDetails.id === item.id) {
                 item.qty = item.qty += state.cartDetails.qty;
                 state.totalPrice =
                   actions.payload.price * state.cartDetails.qty +
@@ -134,7 +134,8 @@ export const counterSlice = createSlice({
               state.addedItem.map((item) => {
                 if (
                   item.size == state.cartDetails.size &&
-                  item.nameColor === state.cartDetails.nameColor
+                  item.nameColor === state.cartDetails.nameColor &&
+                  item.id === state.cartDetails.id
                 ) {
                   item.qty = item.qty += state.cartDetails.qty;
                   state.totalPrice =
