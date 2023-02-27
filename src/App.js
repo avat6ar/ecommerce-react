@@ -41,9 +41,6 @@ const App = () => {
       behavior: "smooth",
     });
   });
-  useEffect(()=> {
-   dispatch(setLoading(false)
-  },[]);
 
   return (
     <BrowserRouter>
