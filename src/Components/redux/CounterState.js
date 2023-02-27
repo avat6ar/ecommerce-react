@@ -49,7 +49,6 @@ export const counterSlice = createSlice({
     valuePrice: [39, 299],
     arrShopping: [],
     valueColor: "All",
-    loading: true,
   },
   reducers: {
     setLoading: (state, actions) => {
