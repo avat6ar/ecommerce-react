@@ -41,9 +41,9 @@ const App = () => {
       behavior: "smooth",
     });
   });
-  window.addEventListener("load", () => {
-    dispatch(setLoading(false));
-  });
+  useEffect(()=> {
+   dispatch(setLoading(false)
+  },[]);
 
   return (
     <BrowserRouter>
