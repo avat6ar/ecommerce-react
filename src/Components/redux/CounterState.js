@@ -40,7 +40,7 @@ export const counterSlice = createSlice({
     prevProduct: {},
     quantityError: false,
     box: false,
-    loading: true,
+    loading: false,
     filterBy: [],
     sortDirectione: "up",
     valueSort: "position",
