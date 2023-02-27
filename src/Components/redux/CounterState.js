@@ -102,7 +102,7 @@ export const counterSlice = createSlice({
               (item) => item.id === state.cartDetails.id
             );
             state.addedItem.map((item) => {
-              if (isProductInCart) {
+              if (isProductInCart == item) {
                 item.qty = item.qty += state.cartDetails.qty;
                 state.totalPrice =
                   actions.payload.price * state.cartDetails.qty +
