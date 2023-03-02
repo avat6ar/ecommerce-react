@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Navigation, Keyboard } from "swiper";
+import { Navigation, Keyboard } from "swiper";
 import "./Category.css";
 import { useSelector } from "react-redux";
 
@@ -19,9 +19,8 @@ const Category = () => {
           <div className="slider-wrapper">
             <Swiper
               loop={true}
-              freeMode={true}
               grabCursor={true}
-              modules={[FreeMode, Navigation, Keyboard]}
+              modules={[Navigation, Keyboard]}
               keyboard={true}
               navigation
               breakpoints={{
